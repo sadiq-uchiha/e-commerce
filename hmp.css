@@ -1,0 +1,156 @@
+@font-face {
+    font-family: brush;
+    src: url(/fonts/fontrust-cufonfonts/Fontrust.otf);
+}
+@font-face {
+    font-family: bf;
+    src: url(/fonts/simple-breakfast-cufonfonts/SimpleBreakfast-nRyn4.ttf);
+}
+
+@font-face {
+    font-family: blanka;
+    src: url(/fonts/blanka-cufonfonts/Blanka-Regular.otf);
+}
+@font-face {
+    font-family: king;
+    src: url(/fonts/kingthings-piquenmeex-cufonfonts/Kingthings\ Pique\ n\ meex.ttf);
+}
+@font-face {
+    font-family: bfut;
+    src: url(/fonts/black-future-cufonfonts/BlackFuture-gx1q3.otf);
+}
+@font-face {
+    font-family: fanta;
+    src: url(/fonts/fantasik-cufonfonts/Fantasik-owd1A.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(7, 7, 7);
+}
+
+#topbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height:65px;
+    background-color: rgb(125, 219, 255,0.1);
+    padding: 15px;
+    border: 1px solid black;
+}
+#logo a span{
+    font-family: king,sans-serif;
+}
+#topbar #searchbar #search{
+    width: 180px;
+  -webkit-transition: width .35s ease-in-out;
+  transition: width .35s ease-in-out;
+}
+#topbar #searchbar #search:focus{
+    width: 350px;
+}
+
+#topbar #login button{
+    margin-left: 187px;
+}
+#topbar #login #log:hover{
+    background-color: cornsilk;
+    box-shadow: 10px 8px;
+    color: black;
+    font-size:large;
+}
+
+#topbar #more #mo:hover{
+    background-color: cornsilk;
+    box-shadow: 10px 8px;
+    color: black;
+    font-size:large;
+}
+#topbar #cart #ca:hover{
+    background-color: cornsilk;
+    box-shadow: 10px 8px;
+    color: black;
+    font-size:large;
+}
+/* my design */
+#cat{
+    height: 710px;
+    width: 100%;
+    padding: 0;
+}
+/***** headings *****/
+#cat h1{
+    font-family: brush,sans-serif;
+    font-size: 100px;
+}
+#cat a span{
+    font-family: 'Comforter Brush', cursive;
+}
+/***** headings *****/
+#cap{
+    margin-left: 928px;
+    margin-top: -593px;
+}
+
+#wc2{
+    height: 710px;
+    width: 100%;
+    padding: 0;
+    background-color:rgb(255, 255, 255);
+}
+
+#wc2cap{
+    margin-left: 15px;
+    margin-top: -491px;
+}
+#wc2 h1{
+    font-family: blanka,sans-serif;
+    font-size: 50px;
+}
+#wc2 img{
+    margin-left: 522px;
+}
+
+#wc3{
+    height: 710px;
+    width: 100%;
+    padding: 0;
+    background-color:rgb(255, 255, 255);
+}
+
+#wc3cap{
+    margin-left: 573px;
+    margin-top: -393px;
+}
+#wc3 h1{
+    font-family: bfut,sans-serif;
+}
+#wc4{
+    height: 820px;
+    width: 100%;
+    padding: 0;
+    background-color:rgb(255, 255, 255);
+}
+
+#wc4cap{
+    margin-left: 43px;
+    margin-top: -563px;
+}
+#wc4 h1{
+    font-family: fanta;
+    font-size: 50px;
+    font-weight: 700;
+}
+#wc4 img{
+    margin-top: 193px;
+    margin-left: 522px;
+}
+ #s11{
+    margin-left: 43px;
+    margin-top: -563px;
+}
