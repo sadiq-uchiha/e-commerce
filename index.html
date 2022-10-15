@@ -19,8 +19,7 @@
     <div class="container-fluid sticky-top " id="topbar">
         <div class="container-fluid" id="logo">
             <a href="" class="display-6" >
-                <span> &nbsp; EC</span>
-            </a>
+                <span>EC</span></a>
         </div>
         <div class="container-fluid" id="searchbar">
             <form class="d-flex">
@@ -41,6 +40,45 @@
              <a href=""><button type="button" class="btn btn-outline-secondary text-dark" id="ca"><i class="fas fa-shopping-cart"></i>-Cart</button></a>
         </div>
     </div>
+
+    <!-- ========== Start hamburger ========== -->
+    <nav class="navbar navbar-dark bg-dark fixed-top" id="ham">
+      <div class="container-fluid" id="brand">
+        <a class="navbar-brand" href="#">E-CART</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title display-6" id="offcanvasDarkNavbarLabel" > <i class="fa fa-shopping-bag" aria-hidden="true"></i></h5>
+            <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active text-dark" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-dark" aria-current="page" href="index.html">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-dark" aria-current="page" href="index.html">Category</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-dark" aria-current="page" href="index.html">More</a>
+              </li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex mt-3" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search the products here" aria-label="Search">
+              <button class="btn btn-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- ========== End hamburger ========== -->
     <!-- ========== End top bar  ========== -->
 
     <!-- ========== Start slider ========== -->
@@ -79,66 +117,59 @@
       </button>
     </div>
     <!-- ========== End slider ========== -->
-           
-    <!-- ========== Start welcome page ========== -->
-    <div class="container-fluid" id="cat">
-        <img src="/images/3d-astronaut-falling-down-flat-circle-line-art-design-illustration.jpg" width="100%" height="710px" alt="">
-        <div id="cap">
-            <h1 class="display-1">WELCOME</h1>
-            <h4 class="">To The Best Shopping Place</h4>
-            <h6 >
-                Get Every product with loweset price as possible <br> and also discount on every occasion. 
-            </h6>
+     
+    <!-- ========== Start entire ========== -->
+    <div class="container-fluid d-flex" id="entire">
+        <div id="category">
+          <div id="discount"> 
+            <a href="">
+              <img src="/images/cat/disc.jpg" width="100px" height="100px" alt="">
+              <h6>Top Offers</h6>
+            </a>
+          </div>
+          <div id="discount"> 
+            <a href="">
+              <img src="/images/cat/mob.jpg" width="100px" height="100px" alt="">
+              <h6>Mobiles</h6>
+            </a>
+          </div>
+          <div id="discount"> 
+            <a href="">
+              <img src="/images/cat/lap.jpg" width="100px" height="100px" alt="">
+              <h6>Laptops</h6>
+            </a>
+          </div>
+          <div id="discount"> 
+            <a href="">
+              <img src="/images/cat/washing machine.jpg" width="100px" height="100px" alt="">
+              <h6>Electronics</h6>
+            </a>
+          </div>
+          <div id="discount"> 
+            <a href="">
+              <img src="/images/cat/cloths.jpg" width="100px" height="100px" alt="">
+              <h6>Fashion</h6>
+            </a>
+          </div>
+          <div id="discount"> 
+            <a href="">
+              <img src="/images/cat/decor.jpg" width="100px" height="100px" alt="">
+              <h6>Home & Funiture</h6>
+            </a>
+          </div>
+          <div id="discount"> 
+            <a href="">
+              <img src="/images/cat/groc.jpg" width="100px" height="100px" alt="">
+              <h6>Grocery</h6>
+            </a>
+          </div>
+        </div>
+
+        <div id="offers">
+          
         </div>
     </div>
-    <!-- ========== End welcome page ========== -->
-
+    <!-- ========== End entire ========== -->
     
-    <!-- ========== Start welcome page 2 ========== -->
-    <div class="container-fluid" id="wc2">
-        <img src="/images/fc.jpg" width="942px" height="710px" alt="">
-        <div id="wc2cap">
-            <h1>WIDE RANGE OF COLLECTIONS</h1>
-            <h4>organised categories to help you find what you need</h4>
-            <h6>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
-                 Aperiam necessitatibus libero obcaecati, rem officiis <br>
-                  nulla deleniti maxime error ullam incidunt, inventore perferendis,
-                <br> similique doloremque assumenda <br>
-                 architecto iure rerum impedit consequatur!
-            </h6>
-        </div>
-    </div>
-    <!-- ========== End welcome page 2 ========== -->
-
-<!-- ========== Start welocome page 3 ========== -->
-    <div class="container-fluid" id="wc3">
-        <img src="/images/customer care.jpg" width="100%" height="710px" alt="">
-        <div id="wc3cap">
-            <h1>24x7 Customer Service</h1>
-            <h4>Know Everything About Products</h4>
-        </div>
-    </div>
-<!-- ========== End welocome page 3 ========== -->
-
-<!-- ========== Start welcome page 4 ========== -->
-<div class="container-fluid" id="wc4">
-    <img src="/images/gym.gif" width="942px" height="600px" alt="">
-    <div id="wc4cap">
-        <h1>Everything You Need in  One Place</h1>
-        <h4>Wide Range Of Sports Coleection</h4>
-        <h6>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
-             Aperiam necessitatibus libero obcaecati, rem officiis <br>
-              nulla deleniti maxime error ullam incidunt, inventore perferendis,
-            <br> similique doloremque assumenda <br>
-             architecto iure rerum impedit consequatur!
-        </h6>
-    </div>
-</div>
-
-<!-- ========== Start js practice ========== -->
-  
-<!-- ========== End js practice ========== -->
 </body>
 </html>
