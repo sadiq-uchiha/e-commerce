@@ -83,7 +83,6 @@ a{
     width: 100%;
     padding: 0;
 }
-/***** headings *****/
 #cat h1{
     font-family: brush,sans-serif;
     font-size: 100px;
@@ -91,7 +90,7 @@ a{
 #cat a span{
     font-family: 'Comforter Brush', cursive;
 }
-/***** headings *****/
+
 #cap{
     margin-left: 928px;
     margin-top: -593px;
@@ -153,4 +152,11 @@ a{
  #s11{
     margin-left: 43px;
     margin-top: -563px;
+}
+
+.hel{
+    
+        border-width:5px;	
+        border-style: dotted solid double dashed;
+    
 }
