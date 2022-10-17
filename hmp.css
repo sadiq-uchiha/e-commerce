@@ -109,6 +109,24 @@ a{
     height: 220px;
     width: 250px;
 }
+
+#cont #fs img:hover{
+    width: 200px;
+    height: 180px;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+#cap img:hover{
+    width: 200px;
+    height: 180px;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+#cap h6{
+    font-family: bfut,sans-serif;
+}
+
 @media only screen and (min-width: 600px) {
     #ham{
         display: none;
